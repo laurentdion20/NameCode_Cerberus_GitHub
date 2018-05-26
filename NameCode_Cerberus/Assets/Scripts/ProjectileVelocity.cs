@@ -35,11 +35,11 @@ public class ProjectileVelocity : MonoBehaviour {
 	void OnTriggerEnter(Collider collider)
 	{
 
-		Debug.Log("trigger enter");
+
 		Hp_System target = collider.transform.GetComponent<Hp_System>();
 		if (target != null)
 		{
-			Debug.Log("Damage taked");
+
 			target.TakeDamage(damage);
 		}
 	}

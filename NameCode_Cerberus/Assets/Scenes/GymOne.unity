@@ -143,7 +143,14 @@ MonoBehaviour:
   Camera: {fileID: 1967146148}
   target: {fileID: 2127637710}
   offset: {x: 0, y: 8, z: 0}
+  targetPosition: {x: 0, y: 0, z: 0}
   smoothSpeed: 0.1
+  panSpeed: 20
+  screenBorder: 15
+  scrollspeed: 2
+  maxHeight: 100
+  minHeight: 50
+  is_Follow: 1
 --- !u!4 &9143886
 Transform:
   m_ObjectHideFlags: 0
@@ -8942,7 +8949,7 @@ Light:
     m_Type: 2
     m_Resolution: -1
     m_CustomResolution: -1
-    m_Strength: 1
+    m_Strength: 0.8
     m_Bias: 0.05
     m_NormalBias: 0.4
     m_NearPlane: 0.2
